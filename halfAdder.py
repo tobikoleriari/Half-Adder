@@ -9,6 +9,7 @@ def half_adder(A, B):
 A = int(input("Enter the first binary input (0 or 1): "))
 B = int(input("Enter the second binary input (0 or 1): "))
 
+
 # Ensure inputs are valid
 if A in [0, 1] and B in [0, 1]:
     Sum, Carry = half_adder(A, B)

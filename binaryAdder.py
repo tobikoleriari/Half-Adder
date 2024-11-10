@@ -11,6 +11,7 @@ def binary_adder(num1, num2):
     num1 = num1.zfill(max_len)
     num2 = num2.zfill(max_len)
 
+
     result = ""
     carry = 0
 
